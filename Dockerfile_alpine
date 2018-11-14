@@ -1,0 +1,7 @@
+FROM alpine:3.8
+
+RUN touch alpine_3_8
+
+RUN echo "hello world" > alpine_3_8
+
+RUN cat alpine_3_8

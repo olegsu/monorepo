@@ -1,7 +1,7 @@
-FROM alpine:3.9
+FROM alpine:3.6
 
-RUN touch alpine_3_9
+RUN touch alpine_3_6
 
-RUN echo "hello world" > alpine_3_9
+RUN echo "hello world" > alpine_3_6
 
-RUN cat alpine_3_9
+RUN cat alpine_3_6
